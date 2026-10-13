@@ -138,26 +138,11 @@ public class MainDashboardFrame extends JFrame {
                 new EmptyBorder(14, 12, 14, 12)
         ));
 
-        sidebar.add(createSectionHeader("OPERATIONS"));
-        addNavButton(sidebar, "QUALITY", "📊", "Quality Dashboard");
-        addNavButton(sidebar, "INSPECTIONS", "🔍", "Visual Inspection");
-        addNavButton(sidebar, "IMAGES", "📷", "Image Capture");
-        addNavButton(sidebar, "CAPA", "🛠️", "Corrective Actions");
-        addNavButton(sidebar, "DEFECTS", "⚠️", "Defect Taxonomy");
-
-        sidebar.add(Box.createRigidArea(new Dimension(0, 12)));
-        sidebar.add(createSectionHeader("MANUFACTURING"));
-        addNavButton(sidebar, "PRODUCTS", "📦", "Product Catalog");
-        addNavButton(sidebar, "BATCHES", "🏷️", "Production Lots");
-        addNavButton(sidebar, "MACHINES", "⚙️", "Machine Registry");
-        addNavButton(sidebar, "OPERATORS", "👥", "Shift Operators");
-
-        sidebar.add(Box.createRigidArea(new Dimension(0, 12)));
-        sidebar.add(createSectionHeader("INTELLIGENCE & ADMIN"));
-        addNavButton(sidebar, "REPORTS", "📈", "Quality Reports");
-        addNavButton(sidebar, "USERS", "🛡️", "User Security (RBAC)");
-        addNavButton(sidebar, "SETTINGS", "🔧", "System Settings");
-        addNavButton(sidebar, "BACKUP", "💾", "Database Backup");
+        addNavButton(sidebar, "QUALITY", "📊", "Dashboard");
+        addNavButton(sidebar, "INSPECTIONS", "🔍", "Inspections");
+        addNavButton(sidebar, "IMAGES", "📷", "Upload Image");
+        addNavButton(sidebar, "PRODUCTS", "📦", "Products");
+        addNavButton(sidebar, "REPORTS", "📈", "Reports");
 
         sidebar.add(Box.createVerticalGlue());
 
